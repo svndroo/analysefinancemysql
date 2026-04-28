@@ -23,36 +23,36 @@ A fully annotated SQL file progressing from **beginner to advanced**, built on a
 
 ## 🗂️ File Structure
 
-### Part 1 — Setup *(Beginner)*
+### Part 1 — Setup 
 - Database and table creation
 - Full dataset insertion (40 rows)
 
-### Part 2 — Basic queries *(Beginner)*
+### Part 2 — Basic queries 
 - `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, `LIKE`, `IN`, `BETWEEN`
 
-### Part 3 — Aggregation & grouping *(Intermediate)*
+### Part 3 — Aggregation & grouping 
 - `GROUP BY`, `HAVING`, `COUNT`, `AVG`, `MIN`, `MAX`
 - `CASE WHEN` for age brackets
 
-### Part 4 — Functions & calculations *(Intermediate)*
+### Part 4 — Functions & calculations 
 - Average rank comparison across all investment products
 - `CONCAT`, `ROUND`, conditional `SUM` for percentage calculation
 
-### Part 5 — Subqueries *(Advanced)*
+### Part 5 — Subqueries 
 - Respondents above average age
 - Most popular product via subquery
 - Preference scoring below average
 
-### Part 6 — Window functions *(Advanced)*
+### Part 6 — Window functions 
 - `RANK()`, `ROW_NUMBER()` with `PARTITION BY`
 - 3-row rolling average with `ROWS BETWEEN`
 - Age gap vs group average
 
-### Part 7 — Views & indexes *(Advanced)*
+### Part 7 — Views & indexes 
 - View `active_investors` for filtered reuse
 - Index on `(gender, avenue)` for query optimisation
 
-### Part 8 — Cross analysis *(Advanced)*
+### Part 8 — Cross analysis 
 - Pivot table: product × time horizon using `SUM(CASE WHEN)`
 - Investor profile by expected return with `GROUP_CONCAT`
 - Source of information vs decision factor
